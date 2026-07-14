@@ -13,10 +13,8 @@ public class futureandcallable {
                 Thread.sleep(1000);
             }
             catch(Exception e ) {}
-
             return 10;
         });
-
         // and the now we want to get the future value so like here we need to use teh .get method and wrap inside the exception handling too ok
         try
         {
