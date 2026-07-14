@@ -21,6 +21,12 @@ public class executorframe {
             executorService.execute(() -> {
                 System.out.println("Task "+taskID+" is performed by "+Thread.currentThread().getName());
             });
+            executorService.execute(() -> {
+                System.out.println("Task "+taskID+" is performed by "+Thread.currentThread().getName());
+            });
+            executorService.execute(() -> {
+                System.out.println("Task "+taskID+" is performed by "+Thread.currentThread().getName());
+            });
         }
         // always do this
         executorService.shutdown();

@@ -22,9 +22,7 @@ public class threadpool {
             catch (Exception e){
 
             }
-
         }
-
         executor.shutdown();
 
     }
